@@ -1,0 +1,45 @@
+body {
+    background-color: #87CEEB; /* Light Blue */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent background overflow */
+}
+
+.container {
+    background-image: url('https://i.pinimg.com/564x/ab/4c/66/ab4c6630fc6504ad45228a84cedf393a.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 100%; /* Make container width 100% */
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    background-color: #32CD32; /* Lime Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #228B22; /* Forest Green */
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 16px;
+}
